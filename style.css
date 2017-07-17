@@ -1,3 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #90caf9;
+  color: #c3fdff;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  border: none;
+  font-size: 1em;
+  color: #9a67ea;
+}
+
+.container p:last-child {
+  text-align: left;
+  font-size: .8em;
+}
+
+button {
+  background-color: #90caf9;
+  color: #c3fdff;
+  line-height: 2em;
+  border-radius: 1em;
+  border: 1px solid #c3fdff;
+  text-transform: uppercase;
+  font-weight: 700;
+  -webkit-transition: .5s;
+  transition: .5s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c3fdff;
+  color: #90caf9;
+  border: 1px solid transparent;
+}
+
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 15%;
+  margin: 0 auto;
+}
+
 #answer {
-  letter-spacing: 2em;
+  color: #9a67ea;
+  letter-spacing: 1.3em;
+  font-size: 2.8em;
+  word-wrap: break-word;
+  font-weight: 700;
 }

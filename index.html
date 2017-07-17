@@ -5,16 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Jeu du pendu !</title>
 </head>
 
 <body>
-  <h1>Le jeu du pendu (en version moche)</h1>
-  <input id="value-attempt" type="text">
-  <button id="attempt-submit">Essayez</button>
-  <p id="answer"></p>
-  <p id="lives"></p>
+  <div class="container">
+    <h1>Le jeu du pendu</h1>
+    <div class="form-container">
+      <input id="value-attempt" type="text" maxlength="1" autofocus>
+      <button id="attempt-submit">Essayez</button>
+    </div>
+    <p id="answer"></p>
+    <div id="img-pendu">
+      <img src="images/pendu7.png" alt="avancee pendu">
+    </div>
+    <p id="lives"></p>
+  </div>
 
   <script type="text/javascript" src="pendu.js"></script>
 </body>
