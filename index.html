@@ -13,10 +13,14 @@
 <body>
   <div class="container">
     <h1>Le jeu du pendu</h1>
-    <div class="form-container">
-      <input id="value-attempt" type="text" maxlength="1" autofocus>
+    <!-- <form id="secret-word-form" action="/" method="">
+      <label for="secret-word">Choisissez le mot à faire deviner <br> (Laissez vide si vous souhaitez que l'ordinateur le choisisse pour vous)</label>
+      <input type="text" name="secret-word" id="secret-word" autofocus>
+    </form> -->
+    <form action="/" method="" class="form-container">
+      <input id="value-attempt" type="text">
       <button id="attempt-submit">Essayez</button>
-    </div>
+    </form>
     <p id="answer"></p>
     <div id="img-pendu">
       <img src="images/pendu7.png" alt="avancee pendu">
@@ -24,6 +28,7 @@
     <p id="lives"></p>
   </div>
 
+  <script type="text/javascript" src="mots.js"></script>
   <script type="text/javascript" src="pendu.js"></script>
 </body>
 
